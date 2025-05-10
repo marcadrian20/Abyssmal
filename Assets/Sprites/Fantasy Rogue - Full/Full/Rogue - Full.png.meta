@@ -1,0 +1,1805 @@
+fileFormatVersion: 2
+guid: 62717ce7d8d918440b9a2e5162975e21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5017038552859356473
+    second: Rogue - Full_0
+  - first:
+      213: -4704111288587850785
+    second: Rogue - Full_1
+  - first:
+      213: 7937439683571875062
+    second: Rogue - Full_2
+  - first:
+      213: -6343347539255544025
+    second: Rogue - Full_3
+  - first:
+      213: 7279439372557731424
+    second: Rogue - Full_4
+  - first:
+      213: -8373914867942010168
+    second: Rogue - Full_5
+  - first:
+      213: 3332891895659012751
+    second: Rogue - Full_6
+  - first:
+      213: 5858406487987710373
+    second: Rogue - Full_7
+  - first:
+      213: -5426078781010706254
+    second: Rogue - Full_8
+  - first:
+      213: 2796223472438271694
+    second: Rogue - Full_9
+  - first:
+      213: 1337858795337813826
+    second: Rogue - Full_10
+  - first:
+      213: -9133646481745482033
+    second: Rogue - Full_11
+  - first:
+      213: -2633332935849304393
+    second: Rogue - Full_12
+  - first:
+      213: -7726245667077879828
+    second: Rogue - Full_13
+  - first:
+      213: 7727641785456540794
+    second: Rogue - Full_14
+  - first:
+      213: -6189417089920986653
+    second: Rogue - Full_15
+  - first:
+      213: 4799711262967442612
+    second: Rogue - Full_16
+  - first:
+      213: -4603711740995556683
+    second: Rogue - Full_17
+  - first:
+      213: -397380989028641667
+    second: Rogue - Full_18
+  - first:
+      213: -4782162052994444018
+    second: Rogue - Full_19
+  - first:
+      213: -7250386227024562251
+    second: Rogue - Full_20
+  - first:
+      213: 4801842135279241484
+    second: Rogue - Full_21
+  - first:
+      213: 6217659374125146200
+    second: Rogue - Full_22
+  - first:
+      213: -7586712674419904484
+    second: Rogue - Full_23
+  - first:
+      213: -8811888126245496564
+    second: Rogue - Full_24
+  - first:
+      213: 3369375613899568259
+    second: Rogue - Full_25
+  - first:
+      213: -5681819579351739000
+    second: Rogue - Full_26
+  - first:
+      213: -844971591230130247
+    second: Rogue - Full_27
+  - first:
+      213: -8076989666423440611
+    second: Rogue - Full_28
+  - first:
+      213: -6274467010763828657
+    second: Rogue - Full_29
+  - first:
+      213: 501830970461604731
+    second: Rogue - Full_30
+  - first:
+      213: -1438764081183882170
+    second: Rogue - Full_31
+  - first:
+      213: -3620040574549665462
+    second: Rogue - Full_32
+  - first:
+      213: -4325286417623582459
+    second: Rogue - Full_33
+  - first:
+      213: -3926960250891382429
+    second: Rogue - Full_34
+  - first:
+      213: 4032350565733390244
+    second: Rogue - Full_35
+  - first:
+      213: -226514527166660197
+    second: Rogue - Full_36
+  - first:
+      213: -8436841371752283619
+    second: Rogue - Full_37
+  - first:
+      213: -2008960628097857340
+    second: Rogue - Full_38
+  - first:
+      213: 7555090548113365342
+    second: Rogue - Full_39
+  - first:
+      213: -3037408676674520235
+    second: Rogue - Full_40
+  - first:
+      213: 1279120869818203527
+    second: Rogue - Full_41
+  - first:
+      213: 3904462109513064102
+    second: Rogue - Full_42
+  - first:
+      213: 4725021699928180284
+    second: Rogue - Full_43
+  - first:
+      213: 8106195720766823103
+    second: Rogue - Full_44
+  - first:
+      213: 8623082931095532730
+    second: Rogue - Full_45
+  - first:
+      213: -6439549142399618436
+    second: Rogue - Full_46
+  - first:
+      213: -1994098285009144184
+    second: Rogue - Full_47
+  - first:
+      213: 8890922703823785715
+    second: Rogue - Full_48
+  - first:
+      213: 67191811669701687
+    second: Rogue - Full_49
+  - first:
+      213: -7230331880092644282
+    second: Rogue - Full_50
+  - first:
+      213: 1092973552860066025
+    second: Rogue - Full_51
+  - first:
+      213: -5719756254308164378
+    second: Rogue - Full_52
+  - first:
+      213: 7525970223878088659
+    second: Rogue - Full_53
+  - first:
+      213: -7203859495126068982
+    second: Rogue - Full_54
+  - first:
+      213: 4719148049362676952
+    second: Rogue - Full_55
+  - first:
+      213: -843857115736892406
+    second: Rogue - Full_56
+  - first:
+      213: 5322804342059212124
+    second: Rogue - Full_57
+  - first:
+      213: -8793822196820433857
+    second: Rogue - Full_58
+  - first:
+      213: 8401605675404492095
+    second: Rogue - Full_59
+  - first:
+      213: -2212026922935628516
+    second: Rogue - Full_60
+  - first:
+      213: -6572079974829688772
+    second: Rogue - Full_61
+  - first:
+      213: 2559887907232852472
+    second: Rogue - Full_62
+  - first:
+      213: 8372048818479031738
+    second: Rogue - Full_63
+  - first:
+      213: 8800138734047286171
+    second: Rogue - Full_64
+  - first:
+      213: -7652202808411192876
+    second: Rogue - Full_65
+  - first:
+      213: 5410087011795569890
+    second: Rogue - Full_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rogue - Full_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 655
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d2f9f7bf910a540800000000000000
+      internalID: 5017038552859356473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 655
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbe0dbd4b3a7beb0800000000000000
+      internalID: -4704111288587850785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 655
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcf36d7653772e60800000000000000
+      internalID: 7937439683571875062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 655
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72733d38507e7f7a0800000000000000
+      internalID: -6343347539255544025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 655
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066cb4d8a83c50560800000000000000
+      internalID: 7279439372557731424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 655
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c254f46bc0e9cb80800000000000000
+      internalID: -8373914867942010168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 595
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82a88b458fc04e20800000000000000
+      internalID: 3332891895659012751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 595
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9e95269ad3d4150800000000000000
+      internalID: 5858406487987710373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 591
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b08296e812b2b4b0800000000000000
+      internalID: -5426078781010706254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 596
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceda43ee6e2ec620800000000000000
+      internalID: 2796223472438271694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 595
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f0ebf6c77019210800000000000000
+      internalID: 1337858795337813826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_11
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 591
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce609fbae4ce3180800000000000000
+      internalID: -9133646481745482033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 527
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9d5795a5847bd0800000000000000
+      internalID: -2633332935849304393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 533
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce70c6e408cd6c490800000000000000
+      internalID: -7726245667077879828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 534
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c3a95d2491e3b60800000000000000
+      internalID: 7727641785456540794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 529
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1178c13f5ca1aa0800000000000000
+      internalID: -6189417089920986653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 527
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcad95b6fffb9240800000000000000
+      internalID: 4799711262967442612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 527
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba2aa520945c10c0800000000000000
+      internalID: -4603711740995556683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 465
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74547c88183c7af0800000000000000
+      internalID: -397380989028641667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 466
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05d9e423f852adb0800000000000000
+      internalID: -4782162052994444018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 400
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7f0d50424716b90800000000000000
+      internalID: -7250386227024562251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 403
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0982d41bf193a240800000000000000
+      internalID: 4801842135279241484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 405
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8506b191240994650800000000000000
+      internalID: 6217659374125146200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_23
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 406
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c107f3cc40596b690800000000000000
+      internalID: -7586712674419904484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 401
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0997a2cf62e5b580800000000000000
+      internalID: -8811888126245496564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_25
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 399
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384f855e44d62ce20800000000000000
+      internalID: 3369375613899568259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 399
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88551e6323f1621b0800000000000000
+      internalID: -5681819579351739000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 335
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b77e6b80de0644f0800000000000000
+      internalID: -844971591230130247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 335
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b745e21b4c8ef80800000000000000
+      internalID: -8076989666423440611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 349
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42d38c4f7d9ce8a0800000000000000
+      internalID: -6274467010763828657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 335
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b47abdb9cd6f600800000000000000
+      internalID: 501830970461604731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 363
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6448179e0bb780ce0800000000000000
+      internalID: -1438764081183882170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 335
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a495779f64803cdc0800000000000000
+      internalID: -3620040574549665462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 271
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50979b56bee79f3c0800000000000000
+      internalID: -4325286417623582459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 271
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3615a8e2572a089c0800000000000000
+      internalID: -3926960250891382429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a75268a979c5f730800000000000000
+      internalID: 4032350565733390244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_36
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 283
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9104c7dc324bdcf0800000000000000
+      internalID: -226514527166660197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_37
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 271
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12c26209715aea80800000000000000
+      internalID: -8436841371752283619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c84b72e3fcbe14e0800000000000000
+      internalID: -2008960628097857340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 213
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59553e23d219d860800000000000000
+      internalID: 7555090548113365342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_40
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 223
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b3025c6e4f8d5d0800000000000000
+      internalID: -3037408676674520235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_41
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 223
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d7d4e67a950c110800000000000000
+      internalID: 1279120869818203527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_42
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 224
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae9f741a9f6f2630800000000000000
+      internalID: 3904462109513064102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_43
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 207
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c364b3ca336a29140800000000000000
+      internalID: 4725021699928180284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_44
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 205
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba19104f0efe7070800000000000000
+      internalID: 8106195720766823103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_45
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 207
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4fea02d385ba770800000000000000
+      internalID: 8623082931095532730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_46
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7279955c2022a6a0800000000000000
+      internalID: -6439549142399618436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_47
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 143
+        width: 164
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88670dacc2a8354e0800000000000000
+      internalID: -1994098285009144184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe4fdec717e26b70800000000000000
+      internalID: 8890922703823785715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 146
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7343362c896bee000800000000000000
+      internalID: 67191811669701687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_50
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 147
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c45e68673b8ab90800000000000000
+      internalID: -7230331880092644282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_51
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 156
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0fe1fc7a50b2f00800000000000000
+      internalID: 1092973552860066025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_52
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 143
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec9424cdf75f90b0800000000000000
+      internalID: -5719756254308164378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_53
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 143
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ab685b0e917860800000000000000
+      internalID: 7525970223878088659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_54
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 143
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a019f25f4ffb60c90800000000000000
+      internalID: -7203859495126068982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_55
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 80
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc6db4d528cd7140800000000000000
+      internalID: 4719148049362676952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c11579c640a44f0800000000000000
+      internalID: -843857115736892406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 80
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d985109566ed940800000000000000
+      internalID: 5322804342059212124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 16
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34a29cbd4116f580800000000000000
+      internalID: -8793822196820433857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3df36129df789470800000000000000
+      internalID: 8401605675404492095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 16
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d42d0cb3d4d41e0800000000000000
+      internalID: -2212026922935628516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_61
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 14
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3871d055184bc4a0800000000000000
+      internalID: -6572079974829688772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 14
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ae6f1d7c868320800000000000000
+      internalID: 2559887907232852472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_63
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 14
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5ebab1b0e7f2470800000000000000
+      internalID: 8372048818479031738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_64
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 14
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b935b01bd8f502a70800000000000000
+      internalID: 8800138734047286171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_65
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 14
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1876fb61aedc590800000000000000
+      internalID: -7652202808411192876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rogue - Full_66
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 14
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec870e297d741b40800000000000000
+      internalID: 5410087011795569890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
