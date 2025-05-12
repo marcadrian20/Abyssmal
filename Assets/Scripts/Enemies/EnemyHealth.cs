@@ -90,7 +90,8 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject, 3f); // fallback: destroy after animation
+            
+            Destroy(gameObject, 2f); // fallback: destroy after animation
         }
     }
 

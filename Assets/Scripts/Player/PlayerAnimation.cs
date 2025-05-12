@@ -51,7 +51,7 @@ public class PlayerAnimation : MonoBehaviour
         //     spriteRenderer.flipX = true;
         // else if (moveInput.x < -0.1f && spriteRenderer.flipX)
         //     spriteRenderer.flipX = false;
-    
+
     }
 
     public void PlayJumpAnimation()
@@ -59,22 +59,38 @@ public class PlayerAnimation : MonoBehaviour
         if (animator == null) return;
         animator.SetTrigger(AnimJump);
     }
-    
+
     public void PlayDashAnimation()
     {
         if (animator == null) return;
         animator.SetTrigger(AnimDash);
+        if (animator.applyRootMotion && rb != null)
+        {
+            rb.MovePosition(animator.rootPosition);
+        }
     }
-    
+
     public void PlayRollAnimation()
     {
         if (animator == null) return;
         animator.SetTrigger(AnimRoll);
+        if (animator.applyRootMotion && rb != null)
+        {
+            rb.MovePosition(animator.rootPosition);
+        }
     }
-    
+
     public void PlayHitAnimation()
     {
         if (animator == null) return;
         animator.SetTrigger(AnimHit);
     }
+    // Sync Rigidbody2D with root motion (for dash/roll)
+    // void OnAnimatorMove()
+    // {
+    //     if (animator.applyRootMotion && rb != null)
+    //     {
+    //         rb.MovePosition(animator.rootPosition);
+    //     }
+    // }
 }

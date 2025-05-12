@@ -5,36 +5,36 @@ public class PlayerMovement : MonoBehaviour
 {
 
     [Header("Movement")]
-    [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float airMoveSpeed = 5f; // NEW: Air control
-    [SerializeField] private float acceleration = 50f;
-    [SerializeField] private float deceleration = 60f;
-    [SerializeField] private float velocityPower = 0.9f;
-    [SerializeField] private float frictionAmount = 0.2f;
+    [SerializeField] private float moveSpeed = 50f;
+    [SerializeField] private float airMoveSpeed = 50f; // NEW: Air control
+    [SerializeField] private float acceleration = 25f;
+    [SerializeField] private float deceleration = 20f;
+    [SerializeField] private float velocityPower = 0.6f;
+    [SerializeField] private float frictionAmount = 0.8f;
 
     [Header("Jump")]
-    [SerializeField] private float jumpForce = 14f;
-    [SerializeField] private float fallMultiplier = 2.5f;
+    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float fallMultiplier = 1f;
     [SerializeField] private float lowJumpMultiplier = 2f;
     [SerializeField] private float jumpBufferTime = 0.2f;
-    [SerializeField] private float coyoteTime = 0.2f;
-    [SerializeField] private int maxJumps = 2;
+    [SerializeField] private float coyoteTime = 0.1f;
+    [SerializeField] private int maxJumps = 1;
 
     [Header("Dash")]
-    [SerializeField] private float dashSpeed = 20f;
-    [SerializeField] private float dashDuration = 0.2f;
+    [SerializeField] private float dashSpeed = 100f;
+    [SerializeField] private float dashDuration = 0.3f;
     [SerializeField] private float dashCooldown = 0.6f;
     [SerializeField] private GameObject dashTrailPrefab;
 
     [Header("Roll")]
-    [SerializeField] private float rollSpeed = 12f;
-    [SerializeField] private float rollDuration = 0.4f;
-    [SerializeField] private float rollCooldown = 0.7f;
+    [SerializeField] private float rollSpeed = 60f;
+    [SerializeField] private float rollDuration = 0.25f;
+    [SerializeField] private float rollCooldown = 0.5f;
 
     [Header("WallActions")]
-    [SerializeField] private float wallSlideSpeed = 2f;
-    [SerializeField] private float wallJumpForce = 12f;
-    [SerializeField] private float wallJumpHorizontalForce = 10f; // NEW: Stronger horizontal push
+    [SerializeField] private float wallSlideSpeed = 20f;
+    [SerializeField] private float wallJumpForce = 3f;
+    [SerializeField] private float wallJumpHorizontalForce = 3f; // NEW: Stronger horizontal push
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
     private bool isTouchingWall;
@@ -224,8 +224,8 @@ public class PlayerMovement : MonoBehaviour
         gameObject.layer = LayerMask.NameToLayer("Ignore Raycast"); // A layer that won't collide with damage sources
 
         // Apply roll velocity
-        float rollDirection = isFacingRight ? 1f : -1f;
-        rb.linearVelocity = new Vector2(rollDirection * rollSpeed, rb.linearVelocity.y);
+        // float rollDirection = isFacingRight ? 1f : -1f;
+        // rb.linearVelocity = new Vector2(rollDirection * rollSpeed, rb.linearVelocity.y);
 
         // // Play roll effect
         // if (rollParticles != null)
