@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,12 +149,12 @@ TextureImporter:
       name: _Roll_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1
-        width: 26
-        height: 39
+        x: 50
+        y: 2
+        width: 24
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: _Roll_1
       rect:
         serializedVersion: 2
-        x: 163
-        y: 4
-        width: 38
-        height: 31
+        x: 164
+        y: 5
+        width: 36
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: _Roll_2
       rect:
         serializedVersion: 2
-        x: 283
-        y: 7
-        width: 42
-        height: 26
+        x: 284
+        y: 8
+        width: 40
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: _Roll_3
       rect:
         serializedVersion: 2
-        x: 402
-        y: 11
-        width: 44
-        height: 21
+        x: 403
+        y: 12
+        width: 42
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: _Roll_4
       rect:
         serializedVersion: 2
-        x: 522
-        y: 11
-        width: 43
-        height: 21
+        x: 523
+        y: 12
+        width: 41
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: _Roll_5
       rect:
         serializedVersion: 2
-        x: 641
-        y: 6
-        width: 45
-        height: 25
+        x: 642
+        y: 7
+        width: 43
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: _Roll_6
       rect:
         serializedVersion: 2
-        x: 766
+        x: 767
         y: 0
-        width: 30
-        height: 32
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: _Roll_7
       rect:
         serializedVersion: 2
-        x: 892
+        x: 893
         y: 0
-        width: 25
-        height: 27
+        width: 23
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: _Roll_8
       rect:
         serializedVersion: 2
-        x: 1014
+        x: 1015
         y: 0
-        width: 27
-        height: 22
+        width: 25
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: _Roll_9
       rect:
         serializedVersion: 2
-        x: 1128
+        x: 1129
         y: 0
-        width: 27
-        height: 21
+        width: 25
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,12 +369,12 @@ TextureImporter:
       name: _Roll_10
       rect:
         serializedVersion: 2
-        x: 1248
+        x: 1249
         y: 0
-        width: 24
-        height: 29
+        width: 22
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: _Roll_11
       rect:
         serializedVersion: 2
-        x: 1365
+        x: 1366
         y: 0
-        width: 28
-        height: 34
+        width: 26
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 01d47773ebca382488b5ad407d63c71b
     internalID: 0
     vertices: []
     indices: 
@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _Roll_0: 1991978013701120253
+      _Roll_1: -202818605549072326
+      _Roll_10: -3519438347738583683
+      _Roll_11: 3155953479660762474
+      _Roll_2: 1556186902649486473
+      _Roll_3: 8077958609940490686
+      _Roll_4: -9121563391726497418
+      _Roll_5: -9056606688895823417
+      _Roll_6: 4556565587350473879
+      _Roll_7: 5341982550336375304
+      _Roll_8: -1286366179472718315
+      _Roll_9: 4957621484318243354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

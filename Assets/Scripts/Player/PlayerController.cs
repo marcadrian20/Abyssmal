@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         // Update movement
         playerMovement.UpdateMovement(MovementInput);
         // Update animations
-        // playerAnimation.UpdateAnimations();
+        playerAnimation.UpdateAnimations(playerMovement.IsGrounded(), MovementInput);
     }
 
     void FixedUpdate() { }
@@ -44,34 +44,50 @@ public class PlayerController : MonoBehaviour
     public void OnJump(InputAction.CallbackContext value)
     {
         if (value.started)
+        {
+            playerMovement.SetJumpPressed(true);
             playerMovement.Jump();
-        // isJumpPressed = true;
-        // isJumpReleased = false;
-        // lastJumpPressedTime = jumpBufferTime;
-
-        // // Handle double jump
-        // if (lastGroundedTime <= 0 && jumpCount < maxJumps && !isDashing && !isRolling)
-        // {
-        //     Jump();
-        // }
+            playerAnimation.PlayJumpAnimation();
+        }
+        if (value.canceled)
+        {
+            playerMovement.SetJumpPressed(false);
+        }
     }
-
-    // private void OnJumpReleased(InputAction.CallbackContext context)
-    // {
-    //     isJumpPressed = false;
-    //     isJumpReleased = true;
-    // }
 
     public void OnDash(InputAction.CallbackContext value)
     {
         if (value.started)
+        {
             playerMovement.Dash();
+            playerAnimation.PlayDashAnimation();
+        }
     }
 
     public void OnRoll(InputAction.CallbackContext value)
     {
         if (value.started)
+        {
             playerMovement.Roll();
+            playerAnimation.PlayRollAnimation();
+        }
+    }
+    public void OnAttack(InputAction.CallbackContext value)
+    {
+        if (value.started)
+            playerCombat.Attack();
+    }
+
+    public void OnSpecialAttack(InputAction.CallbackContext value)
+    {
+        if (value.started)
+            playerCombat.SpecialAttack();
+    }
+
+    public void OnAbility1(InputAction.CallbackContext value)
+    {
+        if (value.started)
+            playerCombat.UseAbility(0);
     }
 
     // #endregion

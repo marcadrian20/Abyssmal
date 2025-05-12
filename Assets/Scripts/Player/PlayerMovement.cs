@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float airMoveSpeed = 5f; // NEW: Air control
     [SerializeField] private float acceleration = 50f;
     [SerializeField] private float deceleration = 60f;
     [SerializeField] private float velocityPower = 0.9f;
@@ -29,21 +30,28 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float rollSpeed = 12f;
     [SerializeField] private float rollDuration = 0.4f;
     [SerializeField] private float rollCooldown = 0.7f;
-    [SerializeField] private LayerMask rollThroughLayers;
+
+    [Header("WallActions")]
+    [SerializeField] private float wallSlideSpeed = 2f;
+    [SerializeField] private float wallJumpForce = 12f;
+    [SerializeField] private float wallJumpHorizontalForce = 10f; // NEW: Stronger horizontal push
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
+    private bool isTouchingWall;
+    private bool isWallSliding;
+    private bool wallJumping;
+    private float wallJumpTime = 0.2f; // NEW: Prevents sticking after wall jump
+    private float wallJumpCounter;
 
     [Header("Ground Detection")]
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckRadius = 0.2f;
+    [SerializeField] private float groundCheckRadius = 0.05f;
     [SerializeField] private LayerMask groundLayer;
-
-
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isJumpPressed;
     private bool isJumpReleased = true;
-    private bool isDashPressed;
-    private bool isRollPressed;
     private float lastGroundedTime;
     private float lastJumpPressedTime;
     private int jumpCount;
@@ -54,21 +62,18 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private float defaultGravityScale;
     private int originalLayer;
-    private Vector2 dashDirection;
 
-
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-
+        rb = GetComponent<Rigidbody2D>();
+        defaultGravityScale = rb.gravityScale;
+        originalLayer = gameObject.layer;
     }
 
-    // Update is called once per frame
     void Update()
     {
-         if (IsGrounded())
+        // --- Ground & Jump Buffer ---
+        if (IsGrounded())
         {
             lastGroundedTime = coyoteTime;
             jumpCount = 0;
@@ -78,10 +83,24 @@ public class PlayerMovement : MonoBehaviour
             lastGroundedTime -= Time.deltaTime;
         }
 
-        // Jump buffer timing
-        lastJumpPressedTime -= Time.deltaTime;
+        if (lastJumpPressedTime > 0)
+            lastJumpPressedTime -= Time.deltaTime;
 
-        // Check if should jump
+        // --- Wall Slide ---
+        isTouchingWall = Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+        isWallSliding = isTouchingWall && !IsGrounded() && moveInput.x != 0 && rb.linearVelocity.y < 0 && !wallJumping;
+        if (isWallSliding)
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -wallSlideSpeed, float.MaxValue));
+
+        // --- Wall Jump Timer ---
+        if (wallJumping)
+        {
+            wallJumpCounter -= Time.deltaTime;
+            if (wallJumpCounter <= 0)
+                wallJumping = false;
+        }
+
+        // --- Jump Buffer & Coyote Time ---
         if (lastGroundedTime > 0 && lastJumpPressedTime > 0 && !isDashing && !isRolling)
         {
             Jump();
@@ -92,19 +111,8 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         if (isDashing || isRolling) return;
-
-        // Apply movement
         ApplyMovement();
-        // Apply jump physics
         ApplyJumpPhysics();
-    }
-
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        defaultGravityScale = rb.gravityScale;
-        originalLayer = gameObject.layer;
-        
     }
 
 
@@ -114,28 +122,46 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump()
     {
-
-        lastGroundedTime = 0;
-        jumpCount++;
-        
+        if (isWallSliding)
+        {
+            WallJump();
+            return;
+        }
+        if (lastGroundedTime > 0)
+        {
+            PerformJump();
+            jumpCount = 1;
+        }
+        else if (jumpCount < maxJumps && !isDashing && !isRolling)
+        {
+            PerformJump();
+            jumpCount++;
+        }
+    }
+    private void PerformJump()
+    {
         // Reset Y velocity before applying jump force
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
-        // // Play jump effect and animation
-        // if (jumpParticles != null)
-        //     jumpParticles.Play();
-
-        // animator?.SetTrigger(AnimJump);
+    }
+    public void WallJump()
+    {
+        wallJumping = true;
+        wallJumpCounter = wallJumpTime;
+        float dir = isFacingRight ? -1 : 1;
+        rb.linearVelocity = new Vector2(dir * wallJumpHorizontalForce, wallJumpForce);
+        // Flip facing direction
+        if ((isFacingRight && moveInput.x < 0) || (!isFacingRight && moveInput.x > 0))
+            Flip();
     }
     public void Dash()
     {
         if (canDash && !isDashing && !isRolling)
         {
             StartCoroutine(DashRoutine());
+
         }
     }
-
     public void Roll()
     {
         if (canRoll && !isRolling && !isDashing && IsGrounded())
@@ -149,6 +175,8 @@ public class PlayerMovement : MonoBehaviour
     {
         isDashing = true;
         canDash = false;
+        int originalLayer = gameObject.layer;
+        gameObject.layer = LayerMask.NameToLayer("Ignore Raycast"); // A layer that won't collide with damage sources
 
         // Save current velocity and gravity
         float originalGravity = rb.gravityScale;
@@ -180,7 +208,7 @@ public class PlayerMovement : MonoBehaviour
         // End dash
         isDashing = false;
         rb.gravityScale = originalGravity;
-
+        gameObject.layer = originalLayer;
         // Cooldown
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
@@ -193,7 +221,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Save original layer and change to pass through certain obstacles
         int originalLayerValue = gameObject.layer;
-        gameObject.layer = LayerMask.NameToLayer("PlayerRolling");
+        gameObject.layer = LayerMask.NameToLayer("Ignore Raycast"); // A layer that won't collide with damage sources
 
         // Apply roll velocity
         float rollDirection = isFacingRight ? 1f : -1f;
@@ -216,7 +244,7 @@ public class PlayerMovement : MonoBehaviour
         canRoll = true;
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
@@ -236,72 +264,77 @@ public class PlayerMovement : MonoBehaviour
 
 
     //////////////Physics update methods////////////
+    // --- Movement & Physics ---
     private void ApplyMovement()
     {
-        // Calculate target speed
-        float targetSpeed = moveInput.x * moveSpeed;
-
-        // Calculate difference between current and target speed
+        float targetSpeed = moveInput.x * (IsGrounded() ? moveSpeed : airMoveSpeed);
         float speedDiff = targetSpeed - rb.linearVelocity.x;
-
-        // Change acceleration rate depending on conditions
         float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deceleration;
-
-        // Apply movement force
         float movement = Mathf.Pow(Mathf.Abs(speedDiff) * accelRate, velocityPower) * Mathf.Sign(speedDiff);
-        rb.AddForce(movement * Vector2.right);
 
-        // Apply friction when not trying to move
+        if (!wallJumping)
+            rb.AddForce(movement * Vector2.right);
+
+        // Friction and anti-slope-slide
         if (Mathf.Abs(moveInput.x) < 0.01f && IsGrounded())
         {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             float frictionForce = Mathf.Min(Mathf.Abs(rb.linearVelocity.x), frictionAmount);
             frictionForce *= Mathf.Sign(rb.linearVelocity.x);
             rb.AddForce(Vector2.right * -frictionForce, ForceMode2D.Impulse);
         }
 
-        // Handle direction facing
+        // Flip facing
         if (moveInput.x > 0 && !isFacingRight)
             Flip();
         else if (moveInput.x < 0 && isFacingRight)
             Flip();
     }
+
     private void ApplyJumpPhysics()
     {
-        // Apply increased gravity when falling
+        // Variable jump height
         if (rb.linearVelocity.y < 0)
-        {
             rb.gravityScale = defaultGravityScale * fallMultiplier;
-        }
-        // Apply lower gravity when ascending but jump button released
         else if (rb.linearVelocity.y > 0 && !isJumpPressed)
-        {
             rb.gravityScale = defaultGravityScale * lowJumpMultiplier;
-        }
         else
-        {
             rb.gravityScale = defaultGravityScale;
-        }
     }
-
+    public void BufferJump()
+    {
+        lastJumpPressedTime = jumpBufferTime;
+    }
+    public void SetJumpPressed(bool pressed)
+    {
+        isJumpPressed = pressed;
+        if (pressed)
+            BufferJump();
+    }
     // For debugging
-     private void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         if (groundCheck != null)
         {
             Gizmos.color = IsGrounded() ? Color.green : Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
+        if (wallCheck != null)
+        {
+            Gizmos.color = isTouchingWall ? Color.blue : Color.yellow;
+            Gizmos.DrawWireSphere(wallCheck.position, 0.2f);
+        }
     }
-    private void OnGUI()
-    {
-        // Uncomment for debugging
-        /*
-        GUILayout.BeginArea(new Rect(10, 10, 300, 100));
-        GUILayout.Label($"Grounded: {IsGrounded()}, Jump Count: {jumpCount}");
-        GUILayout.Label($"Velocity: {rb.velocity}");
-        GUILayout.Label($"Can Dash: {canDash}, Can Roll: {canRoll}");
-        GUILayout.EndArea();
-        */
-    }
+    // private void OnGUI()
+    // {
+    //     // Uncomment for debugging
+
+    //     GUILayout.BeginArea(new Rect(10, 10, 300, 100));
+    //     GUILayout.Label($"Grounded: {IsGrounded()}, {lastGroundedTime} ,Jump Count: {jumpCount}");
+    //     GUILayout.Label($"Velocity: {rb.linearVelocity}");
+    //     GUILayout.Label($"Can Dash: {canDash}, Can Roll: {canRoll}");
+    //     GUILayout.EndArea();
+
+    // }
 
 }
