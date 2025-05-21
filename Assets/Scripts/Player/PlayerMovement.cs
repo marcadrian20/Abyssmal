@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float lowJumpMultiplier = 2f;
     [SerializeField] private float jumpBufferTime = 0.2f;
     [SerializeField] private float coyoteTime = 0.1f;
-    [SerializeField] private int maxJumps = 1;
+    [SerializeField] private int maxJumps = 2;
 
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 100f;
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject dashTrailPrefab;
 
     [Header("Roll")]
-    [SerializeField] private float rollSpeed = 60f;
+    // [SerializeField] private float rollSpeed = 60f;
     [SerializeField] private float rollDuration = 0.25f;
     [SerializeField] private float rollCooldown = 0.5f;
 
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isJumpPressed;
-    private bool isJumpReleased = true;
+    // private bool isJumpReleased = true;
     private float lastGroundedTime;
     private float lastJumpPressedTime;
     private int jumpCount;

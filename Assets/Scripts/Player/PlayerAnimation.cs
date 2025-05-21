@@ -16,6 +16,7 @@ public class PlayerAnimation : MonoBehaviour
     private readonly int AnimDash = Animator.StringToHash("Dash");
     private readonly int AnimRoll = Animator.StringToHash("Roll");
     private readonly int AnimHit = Animator.StringToHash("Hit");
+    private readonly int AnimDie = Animator.StringToHash("Die");
     private Rigidbody2D rb;
 
 
@@ -93,4 +94,10 @@ public class PlayerAnimation : MonoBehaviour
     //         rb.MovePosition(animator.rootPosition);
     //     }
     // }
+    public float PlayDeathAnimation()
+    {
+        if (animator == null) return 0f;
+        animator.SetTrigger(AnimDie);
+        return animator.GetCurrentAnimatorStateInfo(0).length;
+    }
 }

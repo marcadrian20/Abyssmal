@@ -14,14 +14,15 @@ public class PlayerController : MonoBehaviour
     public PlayerInput playerInput;
     private Vector2 MovementInput;
 
-
+    private bool isMovementLocked = false;
 
     private void Update()
     {
         // Update timers
 
         // Update movement
-        playerMovement.UpdateMovement(MovementInput);
+        if (!isMovementLocked)
+            playerMovement.UpdateMovement(MovementInput);
         // Update animations
         playerAnimation.UpdateAnimations(playerMovement.IsGrounded(), MovementInput);
     }
@@ -38,6 +39,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext value)
     {
+        // if (isMovementLocked)
+        //     return; // Skip movement code
         MovementInput = value.ReadValue<Vector2>();
     }
 
@@ -45,6 +48,8 @@ public class PlayerController : MonoBehaviour
     {
         if (value.started)
         {
+            if (isMovementLocked)
+                return; // Skip movement code
             playerMovement.SetJumpPressed(true);
             playerMovement.Jump();
             playerAnimation.PlayJumpAnimation();
@@ -59,6 +64,8 @@ public class PlayerController : MonoBehaviour
     {
         if (value.started)
         {
+            if (isMovementLocked)
+                return; // Skip movement code
             playerMovement.Dash();
             playerAnimation.PlayDashAnimation();
         }
@@ -68,6 +75,8 @@ public class PlayerController : MonoBehaviour
     {
         if (value.started)
         {
+            if (isMovementLocked)
+                return; // Skip movement code
             playerMovement.Roll();
             playerAnimation.PlayRollAnimation();
         }
@@ -75,13 +84,17 @@ public class PlayerController : MonoBehaviour
     public void OnAttack(InputAction.CallbackContext value)
     {
         if (value.started)
+        {
             playerCombat.Attack();
+        }
     }
 
     public void OnSpecialAttack(InputAction.CallbackContext value)
     {
         if (value.started)
+        {
             playerCombat.SpecialAttack();
+        }
     }
 
     public void OnAbility1(InputAction.CallbackContext value)
@@ -89,7 +102,26 @@ public class PlayerController : MonoBehaviour
         if (value.started)
             playerCombat.UseAbility(0);
     }
+    public void LockMovement()
+    {
+        isMovementLocked = true;
+        MovementInput = Vector2.zero; // Stop movement instantly
+        playerMovement.UpdateMovement(MovementInput); // Ensure movement stops
+    }
 
+    public void UnlockMovement()
+    {
+        isMovementLocked = false;
+        if (playerInput != null)
+        {
+            var moveAction = playerInput.actions["Move"];
+            if (moveAction != null)
+            {
+                MovementInput = moveAction.ReadValue<Vector2>();
+                playerMovement.UpdateMovement(MovementInput);
+            }
+        }
+    }
     // #endregion
 
 

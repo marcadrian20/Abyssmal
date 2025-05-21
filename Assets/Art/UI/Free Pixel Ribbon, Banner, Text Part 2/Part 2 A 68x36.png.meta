@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: f4bf357cae95ef04e838dbafb85bf20b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3420288072405849623
+    second: Part 2 A 68x36_0
+  - first:
+      213: 6395870956419980581
+    second: Part 2 A 68x36_1
+  - first:
+      213: 4218215649796085043
+    second: Part 2 A 68x36_2
+  - first:
+      213: 726684562511215729
+    second: Part 2 A 68x36_3
+  - first:
+      213: -2587992547322696902
+    second: Part 2 A 68x36_4
+  - first:
+      213: -7402153263672716891
+    second: Part 2 A 68x36_5
+  - first:
+      213: 1256751111574736070
+    second: Part 2 A 68x36_6
+  - first:
+      213: -162893802979376537
+    second: Part 2 A 68x36_7
+  - first:
+      213: -4448954905150273122
+    second: Part 2 A 68x36_8
+  - first:
+      213: 3579290706649664615
+    second: Part 2 A 68x36_9
+  - first:
+      213: 8021124821530951027
+    second: Part 2 A 68x36_10
+  - first:
+      213: 4014932870436018060
+    second: Part 2 A 68x36_11
+  - first:
+      213: -4483845164702565217
+    second: Part 2 A 68x36_12
+  - first:
+      213: -8026735986420857971
+    second: Part 2 A 68x36_13
+  - first:
+      213: 8940046018380040929
+    second: Part 2 A 68x36_14
+  - first:
+      213: 8566420766051716025
+    second: Part 2 A 68x36_15
+  - first:
+      213: -6706490188817790846
+    second: Part 2 A 68x36_16
+  - first:
+      213: 5923264503604864223
+    second: Part 2 A 68x36_17
+  - first:
+      213: -4634694270212259703
+    second: Part 2 A 68x36_18
+  - first:
+      213: -4630046376350656710
+    second: Part 2 A 68x36_19
+  - first:
+      213: -5444921488935011441
+    second: Part 2 A 68x36_20
+  - first:
+      213: 3195129938015317901
+    second: Part 2 A 68x36_21
+  - first:
+      213: -7807218904786680404
+    second: Part 2 A 68x36_22
+  - first:
+      213: 2934087236890115715
+    second: Part 2 A 68x36_23
+  - first:
+      213: 9211651136341712844
+    second: Part 2 A 68x36_24
+  - first:
+      213: -7883914611508824913
+    second: Part 2 A 68x36_25
+  - first:
+      213: -7217344940399193634
+    second: Part 2 A 68x36_26
+  - first:
+      213: 7755006441028414930
+    second: Part 2 A 68x36_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Part 2 A 68x36_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e96ebe9e12b880d0800000000000000
+      internalID: -3420288072405849623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 113
+        width: 66
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d96a28fb2b2c850800000000000000
+      internalID: 6395870956419980581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 111
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335d610d8cc1a8a30800000000000000
+      internalID: 4218215649796085043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 109
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cbd3c62c3b51a00800000000000000
+      internalID: 726684562511215729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 110
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3be87f6d7a951cd0800000000000000
+      internalID: -2587992547322696902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 112
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a11ac133d4464990800000000000000
+      internalID: -7402153263672716891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 112
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4d783a70e07110800000000000000
+      internalID: 1256751111574736070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7624d4103f84dbdf0800000000000000
+      internalID: -162893802979376537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 77
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9949c8d5132242c0800000000000000
+      internalID: -4448954905150273122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 73
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cc5bd0fe13ca130800000000000000
+      internalID: 3579290706649664615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 75
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dbb660782c05f60800000000000000
+      internalID: 8021124821530951027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 75
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87d0637c28e7b730800000000000000
+      internalID: 4014932870436018060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 75
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cfc02449e26c1c0800000000000000
+      internalID: -4483845164702565217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_13
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 79
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d834a87d52e4b9090800000000000000
+      internalID: -8026735986420857971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea0031cc7c611c70800000000000000
+      internalID: 8940046018380040929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 38
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbca05cc4a02e670800000000000000
+      internalID: 8566420766051716025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 37
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2888fdda4b2cde2a0800000000000000
+      internalID: -6706490188817790846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 42
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46c08eea9a33250800000000000000
+      internalID: 5923264503604864223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 39
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980c57ded124eafb0800000000000000
+      internalID: -4634694270212259703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 37
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37d80c0a55cebfb0800000000000000
+      internalID: -4630046376350656710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 37
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b332611c0cf64b0800000000000000
+      internalID: -5444921488935011441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f6e9600c1675c20800000000000000
+      internalID: 3195129938015317901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c97045cf27a390800000000000000
+      internalID: -7807218904786680404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eb7d6ebc8f7b820800000000000000
+      internalID: 2934087236890115715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf987037eb56df70800000000000000
+      internalID: 9211651136341712844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4318d7e65b69290800000000000000
+      internalID: -7883914611508824913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_26
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed11b0e0407d6db90800000000000000
+      internalID: -7217344940399193634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Part 2 A 68x36_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6d5435415f9b60800000000000000
+      internalID: 7755006441028414930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Part 2 A 68x36_0: -3420288072405849623
+      Part 2 A 68x36_1: 6395870956419980581
+      Part 2 A 68x36_10: 8021124821530951027
+      Part 2 A 68x36_11: 4014932870436018060
+      Part 2 A 68x36_12: -4483845164702565217
+      Part 2 A 68x36_13: -8026735986420857971
+      Part 2 A 68x36_14: 8940046018380040929
+      Part 2 A 68x36_15: 8566420766051716025
+      Part 2 A 68x36_16: -6706490188817790846
+      Part 2 A 68x36_17: 5923264503604864223
+      Part 2 A 68x36_18: -4634694270212259703
+      Part 2 A 68x36_19: -4630046376350656710
+      Part 2 A 68x36_2: 4218215649796085043
+      Part 2 A 68x36_20: -5444921488935011441
+      Part 2 A 68x36_21: 3195129938015317901
+      Part 2 A 68x36_22: -7807218904786680404
+      Part 2 A 68x36_23: 2934087236890115715
+      Part 2 A 68x36_24: 9211651136341712844
+      Part 2 A 68x36_25: -7883914611508824913
+      Part 2 A 68x36_26: -7217344940399193634
+      Part 2 A 68x36_27: 7755006441028414930
+      Part 2 A 68x36_3: 726684562511215729
+      Part 2 A 68x36_4: -2587992547322696902
+      Part 2 A 68x36_5: -7402153263672716891
+      Part 2 A 68x36_6: 1256751111574736070
+      Part 2 A 68x36_7: -162893802979376537
+      Part 2 A 68x36_8: -4448954905150273122
+      Part 2 A 68x36_9: 3579290706649664615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

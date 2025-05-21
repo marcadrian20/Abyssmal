@@ -38,6 +38,12 @@ public class MeleeCombat : PlayerCombat
         else
             Debug.Log("No animator");
 
+
+
+        Debug.Log($"Melee Attack! Combo stage: {currentCombo}");
+    }
+    public void DealDamage()
+    {
         // Detect enemies in range and apply damage
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
         foreach (var hit in hits)
@@ -55,10 +61,8 @@ public class MeleeCombat : PlayerCombat
                 hit.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
             }
         }
-
-        Debug.Log($"Melee Attack! Combo stage: {currentCombo}");
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.attackClip); // Play sound effect
     }
-
     public override void SpecialAttack()
     {
         // Example: Heavy slash or area attack
