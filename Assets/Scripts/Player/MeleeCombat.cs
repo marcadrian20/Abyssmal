@@ -11,6 +11,16 @@ public class MeleeCombat : PlayerCombat
     [SerializeField] private float attackDamage = 1f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayer;
+    [Header("Special Attack")]
+    [SerializeField] private float specialAttackDamage = 5f;
+    [SerializeField] private float specialAttackRangeMultiplier = 2f;
+    [SerializeField] private float specialAttackCooldown = 5f;
+    // [SerializeField] private float ultimateTime = 0f;
+    // [SerializeField] private float next_ultimateTime = 100f; // Amount needed to fill bar
+    public float UltimateTime => ultimateTime;
+    public float NextUltimateTime => next_ultimateTime;
+    private bool canSpecialAttack => ultimateTime >= next_ultimateTime;
+
 
     private int currentCombo = 0;
     private float lastAttackTime = 0f;
@@ -42,6 +52,12 @@ public class MeleeCombat : PlayerCombat
 
         Debug.Log($"Melee Attack! Combo stage: {currentCombo}");
     }
+    public void AddUltimateCharge(float amount)
+    {
+        ultimateTime = Mathf.Clamp(ultimateTime + amount, 0, next_ultimateTime);
+        if (FindFirstObjectByType<SpecialAttackBar>() != null)
+            FindFirstObjectByType<SpecialAttackBar>().UpdateSpecialAttackBar();
+    }
     public void DealDamage()
     {
         // Detect enemies in range and apply damage
@@ -61,24 +77,35 @@ public class MeleeCombat : PlayerCombat
                 hit.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
             }
         }
+        AddUltimateCharge(5f); // Add charge for each hit
         AudioManager.Instance.PlaySFX(AudioManager.Instance.attackClip); // Play sound effect
     }
     public override void SpecialAttack()
     {
-        // Example: Heavy slash or area attack
-        if (animator != null)
-            animator.SetTrigger("SpecialAttack");
+        if (!canSpecialAttack) return;
 
-        // Area damage
-        Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange * 1.5f, enemyLayer);
+        if (animator != null)
+            animator.SetTrigger("SpecialAttack"); // Your special attack animation trigger
+
+        // Do NOT deal damage here! Wait for the animation event to call DealSpecialDamage()
+        ultimateTime = 0f; // Reset bar after use
+
+        if (FindFirstObjectByType<SpecialAttackBar>() != null)
+            FindFirstObjectByType<SpecialAttackBar>().UpdateSpecialAttackBar();
+    }
+    public void DealSpecialDamage()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            attackRange * specialAttackRangeMultiplier,
+            enemyLayer
+        );
         foreach (var hit in hits)
         {
-            hit.SendMessage("TakeDamage", attackDamage * 2f, SendMessageOptions.DontRequireReceiver);
+            hit.SendMessage("TakeDamage", specialAttackDamage, SendMessageOptions.DontRequireReceiver);
         }
-
-        Debug.Log("Melee Special Attack!");
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.attackClip); // Or a special SFX
     }
-
     public override void UseAbility(int abilityIndex)
     {
         // Implement abilities (e.g., dash, parry, etc.)

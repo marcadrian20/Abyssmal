@@ -15,5 +15,6 @@ public class BuffIconUI : MonoBehaviour
     public void UpdateDuration(float percent)
     {
         durationFill.fillAmount = percent;
+        Debug.Log($"Buff Icon Duration Updated: {percent}");
     }
 }

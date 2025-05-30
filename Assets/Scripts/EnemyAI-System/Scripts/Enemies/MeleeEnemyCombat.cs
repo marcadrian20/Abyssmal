@@ -11,10 +11,12 @@ public class MeleeEnemyCombat : EnemyCombat
 
     private float lastAttackTime = 0f;
     private EnemyAnimation enemyAnimation;
+    private EnemyDebuffInflicter enemyDebuffInflicter;
 
     void Awake()
     {
         enemyAnimation = GetComponent<EnemyAnimation>();
+        enemyDebuffInflicter = GetComponent<EnemyDebuffInflicter>();
     }
 
     public override void Attack()
@@ -39,6 +41,7 @@ public class MeleeEnemyCombat : EnemyCombat
                 playerHealth.TakeDamage(attackDamage, knockbackDir);
             else
                 hit.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
+            enemyDebuffInflicter.InflictRandomDebuff(hit.gameObject);
         }
     }
     //visualize attack range in editor

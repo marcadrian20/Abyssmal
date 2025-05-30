@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Buffs/Poison Debuff")]
+[CreateAssetMenu(menuName = "Debuffs/Poison Debuff")]
 public class ScriptablePoisonDebuff : ScriptableBuff
 {
     public int damagePerTick = 1;

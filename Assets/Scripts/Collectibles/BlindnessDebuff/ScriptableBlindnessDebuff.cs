@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Buffs/Blindness Debuff")]
+[CreateAssetMenu(menuName = "Debuffs/Blindness Debuff")]
 public class ScriptableBlindnessDebuff : ScriptableBuff
 {
     public override TimedBuff InitializeBuff(GameObject obj)

@@ -65,20 +65,20 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (animator == null) return;
         animator.SetTrigger(AnimDash);
-        if (animator.applyRootMotion && rb != null)
-        {
-            rb.MovePosition(animator.rootPosition);
-        }
+        // if (animator.applyRootMotion && rb != null)
+        // {
+        //     rb.MovePosition(animator.rootPosition);
+        // }
     }
 
     public void PlayRollAnimation()
     {
         if (animator == null) return;
         animator.SetTrigger(AnimRoll);
-        if (animator.applyRootMotion && rb != null)
-        {
-            rb.MovePosition(animator.rootPosition);
-        }
+        // if (animator.applyRootMotion && rb != null)
+        // {
+        //     rb.MovePosition(animator.rootPosition);
+        // }
     }
 
     public void PlayHitAnimation()

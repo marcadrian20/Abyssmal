@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BuffableEntity : MonoBehaviour
 {
+
     private readonly Dictionary<ScriptableBuff, TimedBuff> _buffs = new Dictionary<ScriptableBuff, TimedBuff>();
     [SerializeField] private BuffBarUI buffBarUI;
     void Update()
@@ -12,15 +13,23 @@ public class BuffableEntity : MonoBehaviour
         //if (Game.isPaused)
         //    return;
 
+        bool buffsChanged = false;
         foreach (var buff in _buffs.Values.ToList())
         {
             buff.Tick(Time.deltaTime);
+            if (buffBarUI != null)
+            {
+                float percent = Mathf.Clamp01(buff.GetDuration() / buff.Buff.Duration);
+                buffBarUI.UpdateBuff(buff.Buff, percent);
+            }
             if (buff.IsFinished)
             {
                 _buffs.Remove(buff.Buff);
+                buffsChanged = true;
+
             }
         }
-        if (buffBarUI != null)
+        if (buffBarUI != null && buffsChanged)
             buffBarUI.SetBuffs(_buffs);
     }
 

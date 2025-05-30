@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
             if (isMovementLocked)
                 return; // Skip movement code
             playerMovement.Dash();
-            playerAnimation.PlayDashAnimation();
+            // playerAnimation.PlayDashAnimation();
         }
     }
 
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
             if (isMovementLocked)
                 return; // Skip movement code
             playerMovement.Roll();
-            playerAnimation.PlayRollAnimation();
+            // playerAnimation.PlayRollAnimation();
         }
     }
     public void OnAttack(InputAction.CallbackContext value)
